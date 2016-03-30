@@ -210,7 +210,7 @@ call s:HL('IncSearch', 'coal', 'tardis',    'bold')
 
 call s:HL('Underlined', 'fg', '', 'underline')
 
-call s:HL('StatusLine',   'coal', 'tardis',     'bold')
+call s:HL('StatusLine',   'coal', 'lightgravel',     'bold')
 call s:HL('StatusLineNC', 'snow', 'deepgravel', 'bold')
 
 call s:HL('Directory', 'dirtyblonde', '', 'bold')
