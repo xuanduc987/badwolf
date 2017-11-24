@@ -19,11 +19,11 @@ if !has("gui_running") && &t_Co != 88 && &t_Co != 256
     finish
 endif
 
-set background=dark
-
 if exists("syntax_on")
     syntax reset
 endif
+
+set background=dark
 
 let g:colors_name = "goodwolf"
 
@@ -190,7 +190,7 @@ call GoodWolfHL('IncSearch', 'coal', 'tardis',    'bold')
 
 call GoodWolfHL('Underlined', 'fg', '', 'underline')
 
-call GoodWolfHL('StatusLine',   'coal', 'tardis',     'bold')
+call GoodWolfHL('StatusLine',   'coal', 'lightgravel',     'bold')
 call GoodWolfHL('StatusLineNC', 'snow', 'deepgravel', 'none')
 
 call GoodWolfHL('Directory', 'dirtyblonde', '', 'bold')
@@ -277,9 +277,9 @@ call GoodWolfHL('PmenuThumb', 'brightgravel')
 " }}}
 " Diffs {{{
 
-call GoodWolfHL('DiffDelete', 'coal', 'coal')
-call GoodWolfHL('DiffAdd',    '',     'deepergravel')
-call GoodWolfHL('DiffChange', '',     'darkgravel')
+call GoodWolfHL('DiffDelete', 'coal', 'dress')
+call GoodWolfHL('DiffAdd',    'coal',     'lime')
+call GoodWolfHL('DiffChange', 'coal',     'brightgravel')
 call GoodWolfHL('DiffText',   'snow', 'deepergravel', 'bold')
 
 " }}}
